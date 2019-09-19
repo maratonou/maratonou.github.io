@@ -29,6 +29,8 @@
 	text-decoration: none;
 	padding: 10px;
 	border-radius: 2px;
+	text-align: center;
+	margin: 0px auto 0px auto !important;
 
 }
 .conteudo1 a:hover{
@@ -57,4 +59,11 @@
 .conteudo1:hover{
 	box-shadow:0 0 0.5em #dfdfdfd9;
 	transform: scale(1.1);
+}
+
+
+@media (max-width: 767px){
+	.fundo{
+		margin-top: 0px !important;
+	}
 }
